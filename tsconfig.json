@@ -14,12 +14,20 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
+    "paths": {
+      "@config": ["src/config/index.ts"],
+      "@config/*": ["src/config/*"],
+      "@infrastructure/*": ["src/infrastructure/*"],
+      "@packages/*": ["src/packages/*"],
+      "@/*": ["src/*"]
+    },
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": false,
     "strictBindCallApply": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "strict": true
   }
 }
