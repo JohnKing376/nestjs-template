@@ -11,8 +11,6 @@
       "**/node_modules/**",
       "**/dist/**",
       "**/build/**",
-      "**/coverage/**",
-      "**/.next/**",
       "**/generated/**",
       "**/*.js"
     ]
@@ -53,6 +51,9 @@
       "quoteStyle": "single",
       "trailingCommas": "es5",
       "semicolons": "always"
+    },
+    "parser": {
+      "unsafeParameterDecoratorsEnabled": true
     }
   },
   "assist": {
